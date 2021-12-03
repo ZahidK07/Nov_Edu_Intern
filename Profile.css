@@ -1,0 +1,35 @@
+
+body{
+    background: rgb(243, 209, 171);
+}
+
+
+
+
+
+.Links
+:hover{
+    box-shadow: black 2px 3px 5px 2px;
+    border-radius: 5px   
+}
+
+#Skills:hover{
+    box-shadow: black 2px 3px 5px 2px;
+    border-radius: 20px  
+
+}
+
+#Hobby:hover{
+    box-shadow: black 5px 2px 5px 3px;
+    border-radius: 10px  
+}
+
+
+
+
+
+
+
+
+
+
