@@ -1,185 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <link rel="stylesheet" href="Profile.css">
-        <title>My Profile Page</title>
-
-
-    </head>
-
-
-    <body>
-
-        <!--Name Header-->
-        <div>
-            <center>
-                <div style="background: rgb(236, 235, 235); width: 210px; border-radius: 50px;">
-                    <u><i>
-                            <h1>Zahid Kazi</h1>
-                        </i></u>
-                </div>
-                <hr>
-
-            </center>
-
-            <!--Connection Links-->
-            <center>
-                <div class="Links">
-
-                    <a href="https://www.instagram.com/" target="blank"><img
-                            src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" /></a>
-                    <a href="https://www.linkedin.com/feed/" target="blank"><img
-                            src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-linkedin-social-media-justicon-flat-justicon.png" /></a>
-                    <a href="https://github.com/" target="blank"><img
-                            src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
-                </div>
-            </center><br>
-
-            <!--Profile Pic-->
-            <div style="float: left;">
-                <img src="ProfilePic.jpg" alt="" style="border-radius: 50%; width: 370px;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./stylesheet.css" type="text/css">
+    <link href="LogoIcons/icon-4399701_640.png" rel="icon"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background: rgb(0, 0, 0);;">
+    <div class="container-fluid" style="background: rgb(230, 230, 230);">
+       <h1>Zahid Kazi</h1>
+   </div>
+    <div>
+        <div class="ProfileInfo">
+            <div class="ProfilePic">
+                <img src="./ProfilePic.jpg" alt="ProfilePic">        
             </div>
+            <div class="Info">
+                <p>I am from Mumbai!</p>
+                <p>Currently a working Professional in an IT Firm as a  Data Monitoring Analyst. 
+                    </p>
+                    <p>Bachelor of Commerce from Rizvi College of ACS.</p>
+                    <p>MERN Stack Developer Intern at <a href="https://www.edureka.co/"target="blank">Edureka!</a></p>
+            </div>
+        </div>
 
-            <!--About Me-->
-            <br><br><br><br><br><br>
-            <center>
-                <b><i>
-                        <div style="float: left; margin-left: 5%;">
-                            <p>
-                                I am from Mumbai and currently a working Professional in an IT Firm as a Data Monitoring
-                                Analyst
-                                for a US based Client.
-                            </p>
-                            <p>Bachelor of Commerce from Himalayan Gherwal University.</p>
+            <div class="Connections">
+                <h1>Connect Me</h1>
+                <div class="ConnectionsParent">
+                    <div id="ConnectionsCard">
+                        <a href="https://www.linkedin.com/feed/" target="blank" alt="Linkedin"><img src="LogoIcons/Linkedin-logo-vector-PNG.png"  alt="Linkedin"></a>
 
-                            <p>MERN Stack Developer Intern at <a href="https://www.edureka.co/">Edureka!</a></p>
-                        </div>
-                    </i></b>
-            </center>
-
-            <br><br><br><br><br><br>
-
-            <!--Skill Header-->
-            <center>
-                <div style=" margin-top: 200px; width: 90px; ;">
-                    <i>
-                        <h1 style="background: rgb(228, 226, 226);  border-radius: 45px;">Skills</h1>
-                    </i>
-                </div>
-            </center>
-
-
-            <!--Skill Logos-->
-            <center>
-
-                <div style="margin-top: 4%; display: inline-block;">
-
-                    <div id=Skills style="float: left;"><a><img src="htmlLogo.png" style="width: 150px" /></a></div>
-
-                    <div id=Skills style="float: left;"><a><img src="cssLogo.png" style="width: 150px" /></a></div>
-
-                    <div id=Skills style="float: left;"><a><img src="bootstrapLogo.png" style="width: 150px" /></a>
                     </div>
-
-                    <div id=Skills style="float: left;"><a><img src="PowerBi.png" style="width: 150px" /></a></div>
-
-                </div>
-
-            </center>
-
-            <!--Hobbies Header-->
-            <center>
-                <div style="margin-top: 12%; background: rgb(228, 226, 226); width: 120px; border-radius: 20px;">
-                    <i>
-                        <h1>Hobbies</h1>
-                    </i>
-                </div>
-            </center>
-
-
-            <!--Hobby Cards-->
-            <div style="display: inline-block; margin-top: 4%;">
-
-                <div style=" float: left">
-                    <div id="Hobby"
-                        style=" float: left;width: 280px; height: 260px; color; background: white; margin-left: 100px">
-                        <div>
-                            <h3 style="text-align: center; background: rgb(228, 226, 226); margin-top: 0%;">Learning
-                                About Teachnologies</h3>
-
-                        </div>
-                        <img src="Tech.png" style="width: 100%; height: 93%; margin-top: -6.5%" alt="Teachnologies">
+                    <div id="ConnectionsCard">
+                        <a href="https://github.com/" target="blank" alt="GitHub"><img src="LogoIcons/Github-icon-logo-on-transparent-PNG.png" alt="GitHub"></a>
                     </div>
-                </div>
-
-                <div style=" float: left">
-                    <div style=" float: left;width: 280px; height: 250px; color; background: white; margin-left: 150px">
-                        <div id="Hobby">
-                            <h3 style="text-align: center; background: rgb(228, 226, 226); margin-top: 0%;">Sports and
-                                Fitness
-                            </h3>
-                            <img src="Sports_Fitness.jpg" style="width: 100%; height: 100%; margin-top: -6.5%"
-                                alt="Sports and Fitness">
-                        </div>
+                    <div id="ConnectionsCard">
+                        <a href="https://www.instagram.com/" target="blank" alt="Insta"><img src="LogoIcons/Button-Instagram-PNG.png" alt="Instagram"></a>
                     </div>
-                </div>
-
-                <div style=" float: left">
-                    <div id="Hobby"
-                        style=" float: left;width: 280px; height: 260px; color; background: white; margin-left: 150px">
-                        <div>
-                            <h3 style="text-align: center; background: rgb(228, 226, 226); margin-top: 0%;">Reading
-                                Religious Books</h3>
-
-                        </div>
-                        <img src="Books.png" style="width: 100%; height: 93%; margin-top: -6.5%" alt="Reading Books">
+                    <div id="ConnectionsCard">
+                        <a href="https://web.telegram.org/k/" target="blank" alt="Telegram"><img src="LogoIcons/Telegram-logo.png" alt="Telegram"></a>
                     </div>
+                       
                 </div>
 
             </div>
 
-            <!--Contact Info-->
-
-
-            <div>
-                <div style="margin-top: 20%; margin-left: 5%; ">
-                    <u>
-                        <h1 style="font">Contact</h1>
-                    </u>
+            <div class="Hobby">
+                <h1>Hobbies</h1>
+                <div id="HobbyCard">
+                    <img src="../Profile Project/LogoIcons/Sports_Fitness.jpg" alt="SportsHobby"> 
+                    <h2>Sports</h2> 
+                    <p>A Sports lover since childhood and Mostly in Cycling, Swimming and Gym Workout because these all are in my top favourite activities.</p>
                 </div>
-
-
-                <div style="float: left; margin-right: 15%;">
-                    <ul style="list-style: none; ">
-                        <b>
-                            <li>Email Id - <a href="https://accounts.google.com/" target="blank">Zaksfit07@gmail.com</a>
-                            </li><br>
-                            <li>Mobile - +91 123456789</li><br>
-                            <li><address> Add - 201, Nooh 54 Apt, Mira Rd, Thane - 401107</address></li>
-                        </b>
-                    </ul>
+                 <div id="HobbyCard">
+                     <img src="../Profile Project/LogoIcons/Tech.png" alt="TechHobby">
+                     <h2>Technology</h2>
+                    <p>Very Enthusiast about Technologies and mainly in Softwares and Web Developement part.</p>
+                 </div>
+                 <div id="HobbyCard">
+                    <img src="../Profile Project/LogoIcons/Books.png" alt="ReadingBooks">
+                    <h2>Reading Books</h2>
+                    <p>I love to read Holy Books because the Source of Universal Knowledge can be found only in its pages.</p>
                 </div>
+            </div>
+        </div>
+        <div >
+            <div class="headingskill"><h1>
+                Skills
+            </h1>
+            </div>       
+            <div class="SKillCard">
+                <a href="https://en.wikipedia.org/wiki/HTML" target="blank "alt="HTML"><img src="LogoIcons/html.png" alt="HTML"></a>
+                <a href="https://en.wikipedia.org/wiki/CSS" target="blank "alt="CSS"><img src="LogoIcons/cssLogo.png" alt="CSS">.</a>
+                <a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)" target="blank "alt="Bootstrap"><img src="LogoIcons/BTLogo.jpg" alt="Bootstrap"></a>
+                <a href="https://en.wikipedia.org/wiki/Microsoft_Power_BI" target="blank "alt="PowerBi"><img src="LogoIcons/power_Bi.png" alt="PowerBi"></a>
+            </div>
+        </div>
+        <div class="Line"></div>
 
-
-                <div style="margin-top: -5%; margin-left: -20%;">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15064.291613197798!2d72.86335199999999!3d19.2791956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1638441265425!5m2!1sen!2sin"
-                        width="600" height="300" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <hr>
-
-                <center>
-                    <footer>
-                        <h3> &copy; 2021</h3>
-                    </footer>
-                    
-                </center>
-
+        <div class="CnctHeading">
+            <h1>Contact</h1>
+            <div class="ContactInfo">
+                <ul>
+                    <li>Email - <a href="https://www.google.com/gmail/" target="_blank">zaksfit07@gmail.com</a>
+                    </li>
+                    <li>Mobile +91 9987401234</li>
+                    <Address id="Addrs">Nooh 54 Apt, Naya Nagar, Mira Road East, Mumbai-Thane 401107</Address>
+                </ul>
+            </div>
+            
+            <div class="Map">
+                <h1>Location</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30128.668910822642!2d72.87013262438964!3d19.278729749398043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1639838740039!5m2!1sen!2sin" style="border:8;" allowfullscreen="" loading="lazy" >
+                </iframe>
 
             </div>
-
-    </body>
-    </head>
-
+        </div>
+</body>
 </html>
